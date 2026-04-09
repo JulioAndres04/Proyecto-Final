@@ -1,0 +1,162 @@
+/* =============================================
+   Estilos personalizados - Libreria Online
+   ============================================= */
+
+/* Colores generales */
+body {
+    background-color: #f5f0e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Navbar personalizado */
+.navbar {
+    background-color: #1b2a4a !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Cards de estadisticas en el inicio */
+.card-stats {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card-stats:hover {
+    transform: translateY(-5px);
+}
+
+.card-stats .card-body {
+    padding: 2rem;
+}
+
+.card-stats i {
+    font-size: 2.5rem;
+    color: #1b2a4a;
+}
+
+.card-stats h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1b2a4a;
+}
+
+/* Tabla de libros */
+.tabla-libros {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tabla-libros thead {
+    background-color: #1b2a4a;
+    color: white;
+}
+
+.tabla-libros tbody tr:hover {
+    background-color: #e8dfd1;
+    cursor: pointer;
+}
+
+.tabla-libros td, .tabla-libros th {
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+/* Cards de autores */
+.card-autor {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.card-autor:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card-autor .card-header {
+    background-color: #1b2a4a;
+    color: white;
+    border-radius: 12px 12px 0 0 !important;
+    font-weight: bold;
+}
+
+.card-autor .card-body {
+    background-color: #fffdf7;
+}
+
+/* Formulario de contacto */
+.form-contacto {
+    background-color: #fffdf7;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+.form-contacto .form-label {
+    font-weight: 600;
+    color: #1b2a4a;
+}
+
+.btn-enviar {
+    background-color: #1b2a4a;
+    border-color: #1b2a4a;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+.btn-enviar:hover {
+    background-color: #2c3e6b;
+    border-color: #2c3e6b;
+    color: white;
+}
+
+/* Hero / Banner del inicio */
+.hero-section {
+    background: linear-gradient(135deg, #1b2a4a 0%, #2c3e6b 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 30px;
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: #1b2a4a !important;
+}
+
+/* Badge de tipo */
+.badge-tipo {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+}
+
+/* Titulo de seccion */
+.titulo-seccion {
+    color: #1b2a4a;
+    font-weight: bold;
+    border-bottom: 3px solid #1b2a4a;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
